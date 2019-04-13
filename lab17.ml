@@ -67,7 +67,7 @@ shape_adt, returns a list of areas corresponding to every shape.
 ....................................................................*)
     
 let list_area_adt (lst : shape_adt list) : float list =
-  List.map area_adt ;;
+  List.map area_adt lst ;;
 
 (*====================================================================
 Part 2: Interfaces, Classes, Objects
